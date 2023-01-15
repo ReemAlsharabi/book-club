@@ -1,35 +1,40 @@
-# Book Club Full-Stack Web Application
-[This project is a movie rating system implemented in Java using the Swing framework and a database developed using XAMPP. The system allows users to view a list of movies, add new movies, and rate existing movies. The movies and their ratings are stored in a database, which can be accessed and modified through the user interface.
+# Book Club Web Application
+This website is a database-driven web application built for Effat University's book club. It is designed to help the members of the club stay informed about upcoming events, view the list of books that have been read, and view the list of members.
 
 ![alt text](https://github.com/ReemAlsharabi/book-club/blob/main/BC.gif)
 
-## Getting Started
-1. Clone the repository to your local machine.
+
+## Features
+* **Admin Credentials:** Only authorized users with admin credentials can access the website's admin panel and perform CRUD operations on events, books and members.
+* **Events:** The website has a calendar feature that displays the upcoming events. Users with admin credentials can add, edit, or remove events from the calendar.
+* **Books:** The website has a feature that allows users to view the list of books that have been read by the book club. Users with admin credentials can add or remove books from the list.
+* **Members:** he website has a feature that allows users to view the list of members of the book club. Users with admin credentials can add or remove members from the list.
+
+## Installation
+1. Clone the repository to your local machine:
 
 ```git clone https://github.com/ReemAlsharabi/book-club.git```
 
-2. Open the project in your preferred Java IDE.
+2. Import the _bookclub.sql_ file to your MySQL database.
+3. Update the _dbconfig.php_ file with your database credentials.
+4. Host the files on a web server and access the website using your preferred browser.
 
-3. Build and run the project.
-
-4. Make sure that XAMPP is installed and running on your local machine.
-
-5. Import the SQL file into the XAMPP's PHPMyAdmin to set up the database
-
-## Features
-* View a list of movies
-* Add a new movie
-* Rate an existing movie
-* Database integration using XAMPP
+## Usage
+1. Log in using your admin credentials to access the backend of the website.
+2. Add, edit, remove, and view events.
+3. Add read books and view the list of read books.
+4. View the current members of the book club.
 
 ## Built With
-
-- [Java](https://www.java.com/) - Programming language
-- [Swing](https://docs.oracle.com/en/java/javase/14/docs/api/javax/swing/package-summary.html) - Framework for creating graphical user interfaces
-- [XAMPP](https://www.apachefriends.org/index.html) - A software stack that includes Apache, MariaDB, and PHP
+* HTML
+* CSS
+* JavaScript
+* PHP
+* SQL
+* Bootstrap
 
 ## Acknowledgments
-* This was a group project for the OOP course [CS2132](https://github.com/ReemAlsharabi/CS2132)
+* This was a group project for the Web App Dev course [CS2111](https://github.com/ReemAlsharabi/CS2111)
 
 ## Authors
 - **Reem Alsharabi** - [ReemAlsharabi](https://github.com/ReemAlsharabi)
