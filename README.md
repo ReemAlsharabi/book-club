@@ -40,4 +40,4 @@ This website is a database-driven web application built for Effat University's b
 - **Reem Alsharabi** - [ReemAlsharabi](https://github.com/ReemAlsharabi)
 - **Aicha Sidiya** - [AichaSidiya](https://github.com/AichaSidiya)
 - **Hanin Alzaher** - [hanin-az](https://github.com/hanin-az)
-- **Razan Almahdi**
+- **Razan Almahdi** - [RazanAlmahdi](https://github.com/RazanAlmahdi)
